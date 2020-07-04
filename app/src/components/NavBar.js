@@ -1,5 +1,10 @@
 import React from "react";
 
 export default function NavBar() {
-	return <div>Nav Bar</div>;
+	return (
+		<div>
+			<p>About Me</p>
+			<p>Projects</p>
+		</div>
+	);
 }
