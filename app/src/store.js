@@ -1,7 +1,17 @@
 import { createStore } from "redux";
 
 const initialState = {
-	projects: "",
+	projects: {
+		title: "Halo Clinic",
+		description: "Blah",
+		image: "",
+		title: "Anime List",
+		description: "Blah Blah",
+		image: "",
+		title: "Story of Wormie",
+		description: "Blah Blah Blah",
+		image: "",
+	},
 };
 
 const reducer = (currentState, action) => {
